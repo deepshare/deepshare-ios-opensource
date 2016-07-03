@@ -1,0 +1,9 @@
+DeepShareSample.xcodeproj/project.xcworkspace/
+DeepShareSample.xcodeproj/xcuserdata/
+
+*.xcbkptlist
+
+build
+demo_template/DeepShareDemo/DeepShareDemo.xcodeproj/project.xcworkspace/xcuserdata/zhaohai.xcuserdatad/UserInterfaceState.xcuserstate
+demo_template/DeepShareDemo/DeepShareDemo.xcodeproj/xcuserdata/zhaohai.xcuserdatad/xcschemes/DeepShareDemo.xcscheme
+demo_template/DeepShareDemo/DeepShareDemo.xcodeproj/xcuserdata/zhaohai.xcuserdatad/xcschemes/xcschememanagement.plist

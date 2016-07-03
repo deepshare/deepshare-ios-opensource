@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode70
+script:
+  - brew update
+  - xctool test -scheme DeepShareUnitTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

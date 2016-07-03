@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246E6AB51BD094D500A5001F /* CallClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AA41BD094D500A5001F /* CallClose.m */; };
+		246E6AB61BD094D500A5001F /* registerInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AA51BD094D500A5001F /* registerInstall.m */; };
+		246E6ABA1BD094D500A5001F /* NewvalueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AAD1BD094D500A5001F /* NewvalueChange.m */; };
+		246E6ABD1BD094D500A5001F /* registerOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AB41BD094D500A5001F /* registerOpen.m */; };
+		246E6AC71BD0950E00A5001F /* CallClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AA41BD094D500A5001F /* CallClose.m */; };
+		246E6AC81BD0950E00A5001F /* registerInstall.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AA51BD094D500A5001F /* registerInstall.m */; };
+		246E6ACC1BD0950E00A5001F /* NewvalueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AAD1BD094D500A5001F /* NewvalueChange.m */; };
+		246E6ACF1BD0950E00A5001F /* registerOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AB41BD094D500A5001F /* registerOpen.m */; };
+		246E6AD21BD096A900A5001F /* DeepShareImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AD11BD096A900A5001F /* DeepShareImpl.m */; };
+		246E6AD41BD09A1F00A5001F /* DeepShareImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 246E6AD11BD096A900A5001F /* DeepShareImpl.m */; };
+		24FEC4121BF9B36900E07AD9 /* DLTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEC4111BF9B36900E07AD9 /* DLTime.m */; };
+		24FEC4131BF9B5C900E07AD9 /* DLTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FEC4111BF9B36900E07AD9 /* DLTime.m */; };
+		8C1A904A1C2A66BE00ACA325 /* clearNewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A90491C2A66BE00ACA325 /* clearNewUsage.m */; };
+		8C1A904B1C2A847A00ACA325 /* getNewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFE6011C294FFA004C82FB /* getNewUsage.m */; };
+		8C1A904C1C2A847A00ACA325 /* clearNewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A90491C2A66BE00ACA325 /* clearNewUsage.m */; };
+		8C8788271C0D753500764ABB /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8788261C0D753500764ABB /* SafariServices.framework */; };
+		8CCCAF6E1CF5AB8E005FC2ED /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCAF6D1CF5AB8E005FC2ED /* DLViewController.m */; };
+		8CCCAF6F1CF5ACA9005FC2ED /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCAF6D1CF5AB8E005FC2ED /* DLViewController.m */; };
+		8CD94C9E1BC8DC28006DEBE8 /* DLStrongMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD94C9D1BC8DC28006DEBE8 /* DLStrongMatchHelper.m */; };
+		8CEFE6021C294FFA004C82FB /* getNewUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEFE6011C294FFA004C82FB /* getNewUsage.m */; };
+		8CF5A3561BCF76310065188E /* DLStrongMatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD94C9D1BC8DC28006DEBE8 /* DLStrongMatchHelper.m */; };
+		A8B728FE1AAEC0A100585F11 /* DeepShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A841B3121AAD4CFF00E373C7 /* DeepShare.h */; };
+		A8B729121AAED0E800585F11 /* DeepShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3131AAD4CFF00E373C7 /* DeepShare.m */; };
+		A8B729151AAED0E800585F11 /* DSError.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3161AAD4CFF00E373C7 /* DSError.m */; };
+		A8B729171AAED0E800585F11 /* DLPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3181AAD4CFF00E373C7 /* DLPreferenceHelper.m */; };
+		A8B729191AAED0E800585F11 /* DLServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31A1AAD4CFF00E373C7 /* DLServerInterface.m */; };
+		A8B7291B1AAED0E800585F11 /* DLServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31C1AAD4CFF00E373C7 /* DLServerRequest.m */; };
+		A8B7291D1AAED0E800585F11 /* DLServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31E1AAD4CFF00E373C7 /* DLServerRequestQueue.m */; };
+		A8B7291F1AAED0E800585F11 /* DLServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3201AAD4CFF00E373C7 /* DLServerResponse.m */; };
+		A8B729211AAED0E800585F11 /* DLSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3221AAD4CFF00E373C7 /* DLSystemObserver.m */; };
+		A8B729231AAED0E800585F11 /* UIViewController+DLDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3241AAD4CFF00E373C7 /* UIViewController+DLDebugging.m */; };
+		A8EF19741AD52CA700F69A48 /* DSEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EF19731AD52CA700F69A48 /* DSEncodingUtils.m */; };
+		A8EF19761AD52CA700F69A48 /* DSEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EF19731AD52CA700F69A48 /* DSEncodingUtils.m */; };
+		A8FD48241AB1421D00B8FDC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CAEFA1A9B885B00676D5A /* ViewController.m */; };
+		A8FD48251AB1421D00B8FDC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CAEF71A9B885B00676D5A /* AppDelegate.m */; };
+		A8FD48261AB1421D00B8FDC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87CAEF41A9B885B00676D5A /* main.m */; };
+		A8FD482A1AB1421D00B8FDC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87CAEFC1A9B885B00676D5A /* Main.storyboard */; };
+		A8FD482B1AB1421D00B8FDC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87CAF011A9B885B00676D5A /* LaunchScreen.xib */; };
+		A8FD482C1AB1421D00B8FDC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87CAEFF1A9B885B00676D5A /* Images.xcassets */; };
+		A8FD48351AB1A44700B8FDC1 /* DeepShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3131AAD4CFF00E373C7 /* DeepShare.m */; };
+		A8FD48381AB1A44700B8FDC1 /* DSError.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3161AAD4CFF00E373C7 /* DSError.m */; };
+		A8FD483A1AB1A44700B8FDC1 /* DLPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3181AAD4CFF00E373C7 /* DLPreferenceHelper.m */; };
+		A8FD483C1AB1A44700B8FDC1 /* DLServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31A1AAD4CFF00E373C7 /* DLServerInterface.m */; };
+		A8FD483E1AB1A44700B8FDC1 /* DLServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31C1AAD4CFF00E373C7 /* DLServerRequest.m */; };
+		A8FD48401AB1A44700B8FDC1 /* DLServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B31E1AAD4CFF00E373C7 /* DLServerRequestQueue.m */; };
+		A8FD48421AB1A44700B8FDC1 /* DLServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3201AAD4CFF00E373C7 /* DLServerResponse.m */; };
+		A8FD48441AB1A44700B8FDC1 /* DLSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3221AAD4CFF00E373C7 /* DLSystemObserver.m */; };
+		A8FD48461AB1A44700B8FDC1 /* UIViewController+DLDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = A841B3241AAD4CFF00E373C7 /* UIViewController+DLDebugging.m */; };
+		A8FFEC0B1AB4534F0007CF50 /* DSError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A841B3151AAD4CFF00E373C7 /* DSError.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A841B2F71AAD4A7200E373C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A8FFEC0B1AB4534F0007CF50 /* DSError.h in CopyFiles */,
+				A8B728FE1AAEC0A100585F11 /* DeepShare.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24123E751BCF56D30007F33D /* DLParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLParam.h; sourceTree = "<group>"; };
+		246E6AA31BD094C600A5001F /* CallClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallClose.h; path = Request/CallClose.h; sourceTree = "<group>"; };
+		246E6AA41BD094D500A5001F /* CallClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = CallClose.m; path = Request/CallClose.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		246E6AA51BD094D500A5001F /* registerInstall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerInstall.m; path = Request/registerInstall.m; sourceTree = "<group>"; };
+		246E6AAC1BD094D500A5001F /* NewvalueChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewvalueChange.h; path = Request/NewvalueChange.h; sourceTree = "<group>"; };
+		246E6AAD1BD094D500A5001F /* NewvalueChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewvalueChange.m; path = Request/NewvalueChange.m; sourceTree = "<group>"; };
+		246E6AB21BD094D500A5001F /* registerInstall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerInstall.h; path = Request/registerInstall.h; sourceTree = "<group>"; };
+		246E6AB31BD094D500A5001F /* registerOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerOpen.h; path = Request/registerOpen.h; sourceTree = "<group>"; };
+		246E6AB41BD094D500A5001F /* registerOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerOpen.m; path = Request/registerOpen.m; sourceTree = "<group>"; };
+		246E6AD01BD0969800A5001F /* DeepShareImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepShareImpl.h; sourceTree = "<group>"; };
+		246E6AD11BD096A900A5001F /* DeepShareImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepShareImpl.m; sourceTree = "<group>"; };
+		24FEC4101BF9B35900E07AD9 /* DLTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTime.h; sourceTree = "<group>"; };
+		24FEC4111BF9B36900E07AD9 /* DLTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTime.m; sourceTree = "<group>"; };
+		8C1A90481C2A66BE00ACA325 /* clearNewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clearNewUsage.h; sourceTree = "<group>"; };
+		8C1A90491C2A66BE00ACA325 /* clearNewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clearNewUsage.m; sourceTree = "<group>"; };
+		8C8788261C0D753500764ABB /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		8CCCAF6C1CF5AB8E005FC2ED /* DLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		8CCCAF6D1CF5AB8E005FC2ED /* DLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		8CD94C9C1BC8DC28006DEBE8 /* DLStrongMatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLStrongMatchHelper.h; sourceTree = "<group>"; };
+		8CD94C9D1BC8DC28006DEBE8 /* DLStrongMatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLStrongMatchHelper.m; sourceTree = "<group>"; };
+		8CEFE6001C294FFA004C82FB /* getNewUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getNewUsage.h; sourceTree = "<group>"; };
+		8CEFE6011C294FFA004C82FB /* getNewUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getNewUsage.m; sourceTree = "<group>"; };
+		A841B2F91AAD4A7200E373C7 /* libDeepShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeepShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A841B3091AAD4A7300E373C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A841B3121AAD4CFF00E373C7 /* DeepShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepShare.h; sourceTree = "<group>"; };
+		A841B3131AAD4CFF00E373C7 /* DeepShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepShare.m; sourceTree = "<group>"; };
+		A841B3141AAD4CFF00E373C7 /* DLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLConfig.h; sourceTree = "<group>"; };
+		A841B3151AAD4CFF00E373C7 /* DSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSError.h; sourceTree = "<group>"; };
+		A841B3161AAD4CFF00E373C7 /* DSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSError.m; sourceTree = "<group>"; };
+		A841B3171AAD4CFF00E373C7 /* DLPreferenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DLPreferenceHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A841B3181AAD4CFF00E373C7 /* DLPreferenceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DLPreferenceHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A841B3191AAD4CFF00E373C7 /* DLServerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLServerInterface.h; sourceTree = "<group>"; };
+		A841B31A1AAD4CFF00E373C7 /* DLServerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLServerInterface.m; sourceTree = "<group>"; };
+		A841B31B1AAD4CFF00E373C7 /* DLServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLServerRequest.h; sourceTree = "<group>"; };
+		A841B31C1AAD4CFF00E373C7 /* DLServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLServerRequest.m; sourceTree = "<group>"; };
+		A841B31D1AAD4CFF00E373C7 /* DLServerRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLServerRequestQueue.h; sourceTree = "<group>"; };
+		A841B31E1AAD4CFF00E373C7 /* DLServerRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLServerRequestQueue.m; sourceTree = "<group>"; };
+		A841B31F1AAD4CFF00E373C7 /* DLServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLServerResponse.h; sourceTree = "<group>"; };
+		A841B3201AAD4CFF00E373C7 /* DLServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLServerResponse.m; sourceTree = "<group>"; };
+		A841B3211AAD4CFF00E373C7 /* DLSystemObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSystemObserver.h; sourceTree = "<group>"; };
+		A841B3221AAD4CFF00E373C7 /* DLSystemObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSystemObserver.m; sourceTree = "<group>"; };
+		A841B3231AAD4CFF00E373C7 /* UIViewController+DLDebugging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DLDebugging.h"; sourceTree = "<group>"; };
+		A841B3241AAD4CFF00E373C7 /* UIViewController+DLDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DLDebugging.m"; sourceTree = "<group>"; };
+		A84D29D01D03293300B36170 /* DeepShareSampleDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DeepShareSampleDebug.entitlements; sourceTree = "<group>"; };
+		A87CAEF41A9B885B00676D5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87CAEF61A9B885B00676D5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A87CAEF71A9B885B00676D5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A87CAEF91A9B885B00676D5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A87CAEFA1A9B885B00676D5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A87CAEFD1A9B885B00676D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A87CAEFF1A9B885B00676D5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A87CAF021A9B885B00676D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A8EF19721AD52CA700F69A48 /* DSEncodingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEncodingUtils.h; sourceTree = "<group>"; };
+		A8EF19731AD52CA700F69A48 /* DSEncodingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEncodingUtils.m; sourceTree = "<group>"; };
+		A8FD48301AB1421D00B8FDC1 /* DeepShareSampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepShareSampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FD48471AB1ABC600B8FDC1 /* DeepShareSampleDebug-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeepShareSampleDebug-Info.plist"; sourceTree = "<group>"; };
+		A8FD484A1AB1E2B600B8FDC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DeepShareTests/Info.plist; sourceTree = "<group>"; };
+		A8FD484C1AB1E32800B8FDC1 /* TestDeeplinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDeeplinkTests.m; path = DeepShareSampleTests/TestDeeplinkTests.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A841B2F61AAD4A7200E373C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FD48271AB1421D00B8FDC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8788271C0D753500764ABB /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C411281BC8DDC400886336 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				246E6AA31BD094C600A5001F /* CallClose.h */,
+				246E6AA41BD094D500A5001F /* CallClose.m */,
+				246E6AB21BD094D500A5001F /* registerInstall.h */,
+				246E6AA51BD094D500A5001F /* registerInstall.m */,
+				246E6AB31BD094D500A5001F /* registerOpen.h */,
+				246E6AB41BD094D500A5001F /* registerOpen.m */,
+				246E6AAC1BD094D500A5001F /* NewvalueChange.h */,
+				246E6AAD1BD094D500A5001F /* NewvalueChange.m */,
+				8CEFE6001C294FFA004C82FB /* getNewUsage.h */,
+				8CEFE6011C294FFA004C82FB /* getNewUsage.m */,
+				8C1A90481C2A66BE00ACA325 /* clearNewUsage.h */,
+				8C1A90491C2A66BE00ACA325 /* clearNewUsage.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		A841B2FA1AAD4A7300E373C7 /* DeepShare */ = {
+			isa = PBXGroup;
+			children = (
+				24C411281BC8DDC400886336 /* Requests */,
+				A841B3121AAD4CFF00E373C7 /* DeepShare.h */,
+				A841B3131AAD4CFF00E373C7 /* DeepShare.m */,
+				246E6AD01BD0969800A5001F /* DeepShareImpl.h */,
+				246E6AD11BD096A900A5001F /* DeepShareImpl.m */,
+				A841B3141AAD4CFF00E373C7 /* DLConfig.h */,
+				24FEC4101BF9B35900E07AD9 /* DLTime.h */,
+				24FEC4111BF9B36900E07AD9 /* DLTime.m */,
+				A841B3151AAD4CFF00E373C7 /* DSError.h */,
+				A841B3161AAD4CFF00E373C7 /* DSError.m */,
+				24123E751BCF56D30007F33D /* DLParam.h */,
+				A841B3171AAD4CFF00E373C7 /* DLPreferenceHelper.h */,
+				A841B3181AAD4CFF00E373C7 /* DLPreferenceHelper.m */,
+				A841B3191AAD4CFF00E373C7 /* DLServerInterface.h */,
+				A841B31A1AAD4CFF00E373C7 /* DLServerInterface.m */,
+				A841B31B1AAD4CFF00E373C7 /* DLServerRequest.h */,
+				A841B31C1AAD4CFF00E373C7 /* DLServerRequest.m */,
+				A841B31D1AAD4CFF00E373C7 /* DLServerRequestQueue.h */,
+				A841B31E1AAD4CFF00E373C7 /* DLServerRequestQueue.m */,
+				A841B31F1AAD4CFF00E373C7 /* DLServerResponse.h */,
+				A841B3201AAD4CFF00E373C7 /* DLServerResponse.m */,
+				A841B3211AAD4CFF00E373C7 /* DLSystemObserver.h */,
+				A841B3221AAD4CFF00E373C7 /* DLSystemObserver.m */,
+				A841B3231AAD4CFF00E373C7 /* UIViewController+DLDebugging.h */,
+				A841B3241AAD4CFF00E373C7 /* UIViewController+DLDebugging.m */,
+				A8EF19721AD52CA700F69A48 /* DSEncodingUtils.h */,
+				A8EF19731AD52CA700F69A48 /* DSEncodingUtils.m */,
+				8CD94C9C1BC8DC28006DEBE8 /* DLStrongMatchHelper.h */,
+				8CD94C9D1BC8DC28006DEBE8 /* DLStrongMatchHelper.m */,
+				8CCCAF6C1CF5AB8E005FC2ED /* DLViewController.h */,
+				8CCCAF6D1CF5AB8E005FC2ED /* DLViewController.m */,
+			);
+			path = DeepShare;
+			sourceTree = "<group>";
+		};
+		A841B3071AAD4A7300E373C7 /* DeepShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A841B3081AAD4A7300E373C7 /* Supporting Files */,
+			);
+			path = DeepShareTests;
+			sourceTree = "<group>";
+		};
+		A841B3081AAD4A7300E373C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A841B3091AAD4A7300E373C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87CAEE61A9B885B00676D5A = {
+			isa = PBXGroup;
+			children = (
+				A84D29D01D03293300B36170 /* DeepShareSampleDebug.entitlements */,
+				8C8788261C0D753500764ABB /* SafariServices.framework */,
+				A87CAEF11A9B885B00676D5A /* DeepShareSample */,
+				A87CAF0B1A9B885B00676D5A /* DeepShareSampleTests */,
+				A841B2FA1AAD4A7300E373C7 /* DeepShare */,
+				A841B3071AAD4A7300E373C7 /* DeepShareTests */,
+				A87CAEF01A9B885B00676D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87CAEF01A9B885B00676D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A841B2F91AAD4A7200E373C7 /* libDeepShare.a */,
+				A8FD48301AB1421D00B8FDC1 /* DeepShareSampleDebug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87CAEF11A9B885B00676D5A /* DeepShareSample */ = {
+			isa = PBXGroup;
+			children = (
+				A87CAEF61A9B885B00676D5A /* AppDelegate.h */,
+				A87CAEF71A9B885B00676D5A /* AppDelegate.m */,
+				A87CAEF91A9B885B00676D5A /* ViewController.h */,
+				A87CAEFA1A9B885B00676D5A /* ViewController.m */,
+				A87CAEFC1A9B885B00676D5A /* Main.storyboard */,
+				A87CAEFF1A9B885B00676D5A /* Images.xcassets */,
+				A87CAF011A9B885B00676D5A /* LaunchScreen.xib */,
+				A87CAEF21A9B885B00676D5A /* Supporting Files */,
+			);
+			path = DeepShareSample;
+			sourceTree = "<group>";
+		};
+		A87CAEF21A9B885B00676D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD48471AB1ABC600B8FDC1 /* DeepShareSampleDebug-Info.plist */,
+				A87CAEF41A9B885B00676D5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87CAF0B1A9B885B00676D5A /* DeepShareSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD484C1AB1E32800B8FDC1 /* TestDeeplinkTests.m */,
+				A87CAF0C1A9B885B00676D5A /* Supporting Files */,
+			);
+			path = DeepShareSampleTests;
+			sourceTree = "<group>";
+		};
+		A87CAF0C1A9B885B00676D5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD484A1AB1E2B600B8FDC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A841B2F81AAD4A7200E373C7 /* DeepShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A841B30A1AAD4A7300E373C7 /* Build configuration list for PBXNativeTarget "DeepShare" */;
+			buildPhases = (
+				A841B2F51AAD4A7200E373C7 /* Sources */,
+				A841B2F61AAD4A7200E373C7 /* Frameworks */,
+				A841B2F71AAD4A7200E373C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepShare;
+			productName = DeepShare;
+			productReference = A841B2F91AAD4A7200E373C7 /* libDeepShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8FD48221AB1421D00B8FDC1 /* DeepShareSampleDebug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FD482D1AB1421D00B8FDC1 /* Build configuration list for PBXNativeTarget "DeepShareSampleDebug" */;
+			buildPhases = (
+				A8FD48231AB1421D00B8FDC1 /* Sources */,
+				A8FD48271AB1421D00B8FDC1 /* Frameworks */,
+				A8FD48291AB1421D00B8FDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepShareSampleDebug;
+			productName = DeepShareSample;
+			productReference = A8FD48301AB1421D00B8FDC1 /* DeepShareSampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87CAEE71A9B885B00676D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = johney.song;
+				TargetAttributes = {
+					A841B2F81AAD4A7200E373C7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A8FD48221AB1421D00B8FDC1 = {
+						DevelopmentTeam = AMV535E2BX;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A87CAEEA1A9B885B00676D5A /* Build configuration list for PBXProject "DeepShareSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A87CAEE61A9B885B00676D5A;
+			productRefGroup = A87CAEF01A9B885B00676D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A841B2F81AAD4A7200E373C7 /* DeepShare */,
+				A8FD48221AB1421D00B8FDC1 /* DeepShareSampleDebug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FD48291AB1421D00B8FDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FD482A1AB1421D00B8FDC1 /* Main.storyboard in Resources */,
+				A8FD482B1AB1421D00B8FDC1 /* LaunchScreen.xib in Resources */,
+				A8FD482C1AB1421D00B8FDC1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A841B2F51AAD4A7200E373C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246E6ABA1BD094D500A5001F /* NewvalueChange.m in Sources */,
+				8CEFE6021C294FFA004C82FB /* getNewUsage.m in Sources */,
+				246E6ABD1BD094D500A5001F /* registerOpen.m in Sources */,
+				A8B729121AAED0E800585F11 /* DeepShare.m in Sources */,
+				A8B729151AAED0E800585F11 /* DSError.m in Sources */,
+				A8B729171AAED0E800585F11 /* DLPreferenceHelper.m in Sources */,
+				A8B729191AAED0E800585F11 /* DLServerInterface.m in Sources */,
+				246E6AB51BD094D500A5001F /* CallClose.m in Sources */,
+				8CCCAF6E1CF5AB8E005FC2ED /* DLViewController.m in Sources */,
+				246E6AD21BD096A900A5001F /* DeepShareImpl.m in Sources */,
+				A8EF19741AD52CA700F69A48 /* DSEncodingUtils.m in Sources */,
+				A8B7291B1AAED0E800585F11 /* DLServerRequest.m in Sources */,
+				A8B7291D1AAED0E800585F11 /* DLServerRequestQueue.m in Sources */,
+				A8B7291F1AAED0E800585F11 /* DLServerResponse.m in Sources */,
+				A8B729211AAED0E800585F11 /* DLSystemObserver.m in Sources */,
+				246E6AB61BD094D500A5001F /* registerInstall.m in Sources */,
+				8CD94C9E1BC8DC28006DEBE8 /* DLStrongMatchHelper.m in Sources */,
+				24FEC4121BF9B36900E07AD9 /* DLTime.m in Sources */,
+				A8B729231AAED0E800585F11 /* UIViewController+DLDebugging.m in Sources */,
+				8C1A904A1C2A66BE00ACA325 /* clearNewUsage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FD48231AB1421D00B8FDC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCCAF6F1CF5ACA9005FC2ED /* DLViewController.m in Sources */,
+				8C1A904B1C2A847A00ACA325 /* getNewUsage.m in Sources */,
+				8C1A904C1C2A847A00ACA325 /* clearNewUsage.m in Sources */,
+				24FEC4131BF9B5C900E07AD9 /* DLTime.m in Sources */,
+				246E6AD41BD09A1F00A5001F /* DeepShareImpl.m in Sources */,
+				246E6AC71BD0950E00A5001F /* CallClose.m in Sources */,
+				246E6AC81BD0950E00A5001F /* registerInstall.m in Sources */,
+				246E6ACC1BD0950E00A5001F /* NewvalueChange.m in Sources */,
+				246E6ACF1BD0950E00A5001F /* registerOpen.m in Sources */,
+				8CF5A3561BCF76310065188E /* DLStrongMatchHelper.m in Sources */,
+				A8FD48351AB1A44700B8FDC1 /* DeepShare.m in Sources */,
+				A8FD48381AB1A44700B8FDC1 /* DSError.m in Sources */,
+				A8EF19761AD52CA700F69A48 /* DSEncodingUtils.m in Sources */,
+				A8FD483A1AB1A44700B8FDC1 /* DLPreferenceHelper.m in Sources */,
+				A8FD483C1AB1A44700B8FDC1 /* DLServerInterface.m in Sources */,
+				A8FD483E1AB1A44700B8FDC1 /* DLServerRequest.m in Sources */,
+				A8FD48401AB1A44700B8FDC1 /* DLServerRequestQueue.m in Sources */,
+				A8FD48421AB1A44700B8FDC1 /* DLServerResponse.m in Sources */,
+				A8FD48441AB1A44700B8FDC1 /* DLSystemObserver.m in Sources */,
+				A8FD48461AB1A44700B8FDC1 /* UIViewController+DLDebugging.m in Sources */,
+				A8FD48241AB1421D00B8FDC1 /* ViewController.m in Sources */,
+				A8FD48251AB1421D00B8FDC1 /* AppDelegate.m in Sources */,
+				A8FD48261AB1421D00B8FDC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A87CAEFC1A9B885B00676D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87CAEFD1A9B885B00676D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A87CAF011A9B885B00676D5A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87CAF021A9B885B00676D5A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A841B30B1AAD4A7300E373C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=*]" = "armv7 arm64 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		A841B30C1AAD4A7300E373C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=*]" = "armv7 arm64 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		A87CAF101A9B885B00676D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		A87CAF111A9B885B00676D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		A8FD482E1AB1421D00B8FDC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepShareSampleDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/DeepShareSample/DeepShareSampleDebug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DeepShareSample-gudavqsdifwtxneogfbzurzudpck/Build/Products/Debug-universal",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DeepShareSample-gudavqsdifwtxneogfbzurzudpck/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.DeepShareSample;
+				PRODUCT_NAME = DeepShareSampleDebug;
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		A8FD482F1AB1421D00B8FDC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeepShareSampleDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/DeepShareSample/DeepShareSampleDebug-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DeepShareSample-gudavqsdifwtxneogfbzurzudpck/Build/Products/Debug-universal",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/DeepShareSample-gudavqsdifwtxneogfbzurzudpck/Build/Products/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.singularity.DeepShareSample;
+				PRODUCT_NAME = DeepShareSampleDebug;
+				PROVISIONING_PROFILE = "";
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A841B30A1AAD4A7300E373C7 /* Build configuration list for PBXNativeTarget "DeepShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A841B30B1AAD4A7300E373C7 /* Debug */,
+				A841B30C1AAD4A7300E373C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87CAEEA1A9B885B00676D5A /* Build configuration list for PBXProject "DeepShareSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87CAF101A9B885B00676D5A /* Debug */,
+				A87CAF111A9B885B00676D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FD482D1AB1421D00B8FDC1 /* Build configuration list for PBXNativeTarget "DeepShareSampleDebug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FD482E1AB1421D00B8FDC1 /* Debug */,
+				A8FD482F1AB1421D00B8FDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87CAEE71A9B885B00676D5A /* Project object */;
+}
